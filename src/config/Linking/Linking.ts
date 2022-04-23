@@ -1,0 +1,25 @@
+export const linking = {
+  prefixes: ["https://oxygen8.com", "oxygen8://"],
+  config: {
+    screens: {
+      Login: "/login",
+      CreateAccount: "/create-account",
+      ForgotPassword: "/forgot-password",
+      InCompleteProfile: "/incomplete-profile",
+      ResetPassword: "/reset-password",
+      Dashboard: "/dashboard",
+      Location: "/location",
+      LocationCreate: "/location-create",
+      LocationDetail: "/location-details",
+      Users: "/users",
+      TimeAndSchedulesScreen: "/time-and-schedules",
+      CreateNewScheduleScreen: "/create-new-schedule",
+      AllReportsScreen: "/all-reports",
+      LocationStatsScreen: "/location-stats",
+      EnvironmentVariableScreen: "/environment-variable",
+      AccountSettingsScreen: "/account-settings",
+      TemperatureScreen: "/temperature",
+      InviteUsers: "/invite-users",
+    },
+  },
+};
