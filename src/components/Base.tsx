@@ -22,10 +22,10 @@ const Base = () => {
       </View>
       <View style={styles.buttonContainer}>
         <View style={styles.button}>
-          <Button title="-" onPress={decrementHandler} />
+          <Button title="Sub" onPress={decrementHandler} />
         </View>
         <View style={styles.button}>
-          <Button title="+" onPress={incrementHandler} />
+          <Button title="Add" onPress={incrementHandler} />
         </View>
       </View>
     </View>
