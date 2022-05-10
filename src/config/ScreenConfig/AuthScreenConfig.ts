@@ -10,7 +10,7 @@ import ForgotPasswordScreen from "../../../../screens/ForgotPasswordScreen";
 import IncompleteProfileScreen from "../../../../screens/IncompleteProfileScreen";
 import LoginScreen from "../../../../screens/LoginScreen";
 import ResetPasswordScreen from "../../../../screens/ResetPasswordScreen";
-import { TRootStackParamList } from "../../../../types";
+import { TRootStackParamList } from "../../../types/types";
 
 type TNavigationScreensConfig = RouteConfig<
   TRootStackParamList,
@@ -28,22 +28,22 @@ export const AuthScreenConfig: TNavigationScreensConfig[] = [
     component: LoginScreen,
     options: { headerShown: false },
   },
-	{
+  {
     name: "CreateAccount",
     component: CreateAccountScreen,
     options: { headerShown: false },
   },
-	{
+  {
     name: "ForgotPassword",
     component: ForgotPasswordScreen,
     options: { headerShown: false },
   },
-	{
+  {
     name: "InCompleteProfile",
     component: IncompleteProfileScreen,
     options: { headerShown: false },
   },
-	{
+  {
     name: "ResetPassword",
     component: ResetPasswordScreen,
     options: { headerShown: false },
